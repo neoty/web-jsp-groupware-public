@@ -1,0 +1,12 @@
+<Context antiResourceLocking="false" privileged="true"> 
+<Resource name="jdbc/MysqlDB" auth="Container" type="javax.sql.DataSource" 
+          username="아이디" 
+          password="비밀번호" 
+          maxActive="100" 
+          maxIdle="10" 
+		  maxWait="180"
+		  removeAbandoned="true"
+ 		  removeAbandonedTimeout="60" 
+          driverClassName="com.mysql.jdbc.Driver"
+          url="jdbc:mysql://서버아이피 혹은 localhost:3306/디비명?characterEncoding=utf8" /> 
+</Context>

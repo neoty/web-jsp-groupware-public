@@ -1,0 +1,72 @@
+#people-main {
+	width: 730px;
+	margin: 0 auto;
+	padding-bottom: 40px;
+	padding-top: 15px;
+}
+
+#people-status-title {
+	border-top: 2px solid #BDBDBD;
+	border-bottom: 2px solid #3F5765;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-weight: bold;
+	height: 15px;
+}
+
+
+#people-community-title {
+	border-top: 2px solid #BDBDBD;
+	border-bottom: 2px solid #3F5765;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-weight: bold;
+	height: 15px;
+	text-align: right;
+	padding-right: 5px;
+}
+
+.people-combo-form {
+	margin-top: -4px;
+	font-weight: bold;
+	border: 1px solid #3F5765;
+	width: 158px;
+	height: 22px;
+	text-align: center;
+}
+
+#people-body {
+	margin-left: 4px;
+	padding-top: 10px;
+	text-align: left;
+}
+
+#people-content {
+	float: left;
+	width: 180px;
+	text-align: center;
+	padding-bottom: 5px;
+	margin-bottom: 20px;
+	margin-right: 1px;
+	border-bottom: 1px solid #BDBDBD;
+}
+
+#paging {
+	clear: both;
+}
+
+.people-cnt {
+}
+/* UI Object */
+.paginate_simple{padding:5px 0;text-align:center;line-height:normal}
+.paginate_simple *{display:inline-block;position:relative;margin:0 -2px;padding:2px 10px;font-size:11px;font-family:Tahoma, Sans-serif;color:#333;line-height:normal;text-decoration:none;vertical-align:middle}
+.paginate_simple a:hover,
+.paginate_simple a:active,
+.paginate_simple a:focus{background-color:#f8f8f8}
+.paginate_simple strong{color:#ff6600}
+.paginate_simple .direction{padding:0 6px;font-weight:bold;font-size:14px;color:#666;text-align:center}
+.paginate_simple .direction:hover,
+.paginate_simple .direction:active,
+.paginate_simple .direction:focus{background-color:transparent !important;color:#333}
+.paginate_simple .direction span{overflow:hidden;visibility:hidden;position:absolute;top:0;left:0;width:1px;height:1px;font-size:0;line-height:0}
+/* //UI Object */

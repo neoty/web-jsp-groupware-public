@@ -1,0 +1,41 @@
+a:link     {color:#2B3A42;text-decoration:none} 
+a:visited  {color:#2B3A42;text-decoration:none} 
+a:active   {color:#2B3A42;text-decoration:none} 
+a:hover    {color:#2B3A42;text-decoration:none} 
+ 
+#main-frame {
+	width: 730px;
+	margin: 0 auto;
+	padding-bottom: 40px;
+	padding-top: 15px;
+}
+
+#newest-list {
+	float: left;
+	width: 49%;
+	text-align: left;
+	padding-right: 5px;
+}
+
+.newest-ul {
+	list-style: none;
+	padding: 0;
+}
+
+.newest-li {
+	margin: 0;
+	border-bottom: 1px solid #BDBDBD;
+	padding: 6px 0px 6px 0px;
+}
+
+.main-list-date {
+	font-size: 8px;
+	font-family: verdana;
+	font-weight: bold;
+}
+
+.main-tut-subject {
+	
+}
+
+

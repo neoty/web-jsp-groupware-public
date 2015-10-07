@@ -1,0 +1,211 @@
+/* 일반 폼 필드 */
+.form-field {
+	font-size: 12px;
+	background: #EFEFEF;
+	border-radius: 0px;
+	color: #000000;
+	height: 12px;
+	padding: 8px 8px 8px 8px;
+	margin-bottom: 5px;
+	border: 1px solid #61869C;
+}
+.form-field:hover {
+	border: 1px solid #E74C3C;
+}
+.form-field:focus {
+	border: 1px solid #61869C;
+	color: #2B3A42;
+	background: #ffffff;
+	
+}
+
+
+#favoritefood {
+   width: 150px;
+   height: 24px;
+   overflow: hidden;
+   background: url(new_arrow.png) no-repeat right #EFEFEF;
+   border: 1px solid #61869C;
+   }
+
+#favoritefood:hover {
+   border: 1px solid #E74C3C;
+   }
+
+
+
+
+/* 글쓰기용 폼 */
+.form-text {
+	font-size: 12px;
+	padding: 10px 10px 10px 10px;
+	border: 1px solid #61869C;
+	background: #EFEFEF;
+	border-radius: 0px;
+	color: #000000;
+	height: 12px;
+}
+.form-text:hover {
+	border: 1px solid #E74C3C;
+}
+.form-text:focus {
+	border: 1px solid #61869C;
+	background: #ffffff;
+	color: #2B3A42;
+}
+
+
+/* submit 버튼의 css 적용 */
+.form-submit {
+	border: 1px solid #61869C;
+	font-size: 11px;
+	background: #EFEFEF;
+	padding: 5px 5px 5px 5px;
+	color: #3F5765
+}
+.form-submit:visited {
+	border: 1px solid #61869C;
+	font-size: 11px;
+	background: #EFEFEF;
+	padding: 5px 5px 5px 5px;
+	color: #3F5765
+	}
+.form-submit:hover {
+	border: 1px solid #E74C3C;
+	color: #E74C3C;
+	font-size: 11px;
+	background: #EFEFEF;
+	padding: 5px 5px 5px 5px;
+	text-shadow: 1px 1px 1px #ffffff;
+	}
+.form-submit:active {
+	border: 1px solid #E74C3C;
+	color: #E74C3C;
+	font-size: 11px;
+	padding: 5px 5px 5px 5px;
+	text-shadow: 1px 1px 1px #ffffff;
+	}
+	
+.input-form {
+	border: 1px solid #efefef;
+	background: #efefef;
+	width: 400px;
+	padding-left: 10px;
+	padding-right: 10px;
+	height: 30px;
+}
+.input-form:FOCUS {
+	background: #E74C3C;
+	color: #efefef;
+	border: 1px solid #E74C3C;
+}
+
+
+
+.select-form {
+	border: 1px solid #efefef;
+	background: #efefef;
+	width: 425px;
+	padding-left: 10px;
+	padding-right: 10px;
+	height: 30px;
+}
+
+.select-form:FOCUS {
+	background: #E74C3C;
+	color: #efefef;
+	border-bottom: 1px solid #E74C3C;
+}
+
+
+.select-form:VISITED {
+	border: 1px solid #E74C3C;
+}
+
+.backbtn {
+	width: 80px;
+	height: 30px;
+	color: #efefef;
+	background: #3f5765;
+	border: none;
+	cursor: pointer;
+}
+
+.backbtn:active {
+	width: 80px;
+	height: 30px;
+	color: #ffffff;
+	background: #2B3A42;
+	text-shadow: 1px 1px 1px #000000;
+	border: none;
+	position: relative;
+	left: 1px;
+	top: 1px;
+}
+
+.writecomplete {
+	width: 80px;
+	height: 30px;
+	color: #efefef;
+	background: #E74C3C;
+	border: none;
+}
+
+.writecomplete:active {
+	width: 80px;
+	height: 30px;
+	color: #ffffff;
+	text-shadow: 1px 1px 1px #000000;
+	background: #BA2B2B;
+	border: none;
+	position: relative;
+	left: 1px;
+	top: 1px;
+}
+
+/*
+	회원 정보 수정용 css는 여기부터
+*/
+#mem-modify-path {
+	border-bottom: 2px solid #e74c3c;
+	padding-left: 15px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	width: 355px;
+}
+
+
+#mem-modify-frame {
+	width: 100%;
+	margin: 0 auto;
+	padding-bottom: 40px;
+	padding-top: 6px;
+}
+.mem-modify-field {
+	padding-bottom: 6px;
+}
+.mem-modify-title {
+	width: 130px;
+	padding-left: 5px;
+	float: left;
+	line-height: 20px;
+	height: 18px;
+	font-weight: bold;
+}
+.mem-modify-input {
+	float: left;
+	width: 225px;
+	height: 15px;
+}
+
+.mem-modify-text {
+	min-width: 100%;
+	height: 16px;
+}
+
+.mem-file-input {
+	width: 225px;
+	height: 18px;
+}
+
+

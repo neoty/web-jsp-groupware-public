@@ -1,0 +1,411 @@
+/* Chat Folder 전체 공통 css 설정 */
+#me-container {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.checkbox {
+	width: 13px;
+	height: 13px;
+	vertical-align: -2px;
+}
+
+#me-header {
+	padding-top: 15px;
+}
+
+#me-header-menu {
+	height: 40px;
+}
+/* ------------------------------------------------------ */
+
+/*
+	쪽지 리스트 menu 버튼 설정
+	삭제, 보관하기, 답장, 쪽지쓰기
+	div의 공통 옵션
+	
+	적용 page : index.jsp, Send.jsp, Storage.jsp 
+*/
+
+.me-header-delete {
+	float: left;
+	height: 40px;
+}
+
+.me-header-storage {
+	float: left;
+	height: 40px;
+}
+
+.me-header-answer {
+	float: left;
+	height: 40px;
+}
+
+.me-header-write {
+	float: right;
+	height: 40px;
+}
+
+#me_empty_message {
+	width: 730px;
+	height: 20px;
+	line-height: 170%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #DCDCDC;
+	text-align: center;
+	color: #005766;
+}
+/* ------------------------------------------------------ */
+
+#me-content-title {
+	margin-top: 5px;
+	border-top: 2px solid #BDBDBD;
+	border-bottom: 2px solid #3F5765;
+	padding: 3px 0;
+	font-weight: bold;
+	height: 15px;
+}
+
+#me-content-detail {
+	height: 20px;
+	line-height: 170%;
+	padding: 5px 0;
+	border-bottom: 1px solid;
+	border-color: #DCDCDC;
+}
+
+/* 
+	쪽지 리스트 공통 설정
+	체크박스, 보낸사람, 받는사람, 내용, 수신날짜
+	div의 공통 옵션
+	
+	적용 page : index.jsp, Send.jsp, Storage.jsp 
+*/
+a {
+	color: #000000;
+}
+
+a:HOVER .me-content-sender {
+	
+}
+
+a:HOVER .me-content-receiver {
+	
+}
+
+a:HOVER .me-content-substance {
+	
+}
+
+.me-content-check {
+	float: left;
+	padding-left: 5px;
+	width: 40px;
+}
+
+.me-content-sender {
+	float: left;
+	width: 100px;
+}
+
+.me-content-receiver {
+	float: left;
+	width: 100px;
+}
+
+.me-content-substance {
+	float: left;
+	padding: 0 10px;
+	width: 460px;
+	color: #005766 !important;
+}
+
+.me-content-date {
+	float: left;
+	padding-right: 5px;
+	width: 100px;
+	color: #005766 !important;
+}
+/* ------------------------------------------------------ */
+
+/* index.jsp div 세부 설정 */
+#me-content-detail #me-content-receive-check {
+	
+}
+
+#me-content-detail #me-content-receive-sender {
+	font-weight: bold !important;
+}
+
+#me-content-detail #me-content-receive-substance {
+	text-align: left;
+	/* 말줄임(...) */
+	white-space: nowrap;
+	text-overflow: ellipsis;      /* IE, Safari */
+	-o-text-ocerflow: ellipsis;   /* Opera under 10.7 */
+	overflow: hidden;
+	/* ----------- */
+}
+
+#me-content-detail #me-content-receive-date {
+	font-size: 9px;
+	font-family: verdana, tahoma;
+	font-weight: bold;
+}
+/* ------------------------------------------------------ */
+
+/* Send.jsp div 세부 설정 */
+#me-content-detail #me-content-send-check {
+	
+}
+
+#me-content-detail #me-content-send-receiver {
+	font-weight: bold;
+}
+
+#me-content-detail #me-content-send-substance {
+	text-align: left;
+	/* 말줄임(...) */
+	white-space: nowrap;
+	text-overflow: ellipsis;      /* IE, Safari */
+	-o-text-ocerflow: ellipsis;   /* Opera under 10.7 */
+	overflow: hidden;
+	/* ----------- */
+}
+
+#me-content-detail #me-content-send-date {
+	font-size: 9px;
+	font-family: verdana, tahoma;
+	font-weight: bold;
+}
+/* ------------------------------------------------------ */
+
+/* Storage.jsp div 세부 설정 */
+#me-content-title #me-content-storage-substance {
+	width: 360px;
+}
+
+#me-content-detail #me-content-storage-check {
+	
+}
+
+#me-content-detail #me-content-storage-sender {
+	font-weight: bold;
+}
+
+#me-content-detail #me-content-storage-receiver {
+	font-weight: bold;
+}
+
+#me-content-detail #me-content-storage-substance {
+	width: 360px;
+	text-align: left;
+	/* 말줄임(...) */
+	white-space: nowrap;
+	text-overflow: ellipsis;      /* IE, Safari */
+	-o-text-ocerflow: ellipsis;   /* Opera under 10.7 */
+	overflow: hidden;
+	/* ----------- */
+}
+
+#me-content-detail #me-content-storage-date {
+	font-size: 9px;
+	font-family: verdana, tahoma;
+	font-weight: bold;
+}
+/* ------------------------------------------------------ */
+
+#me-footer {
+	width: 100%;
+}
+
+#me-footer-paging {
+	margin: 0 auto;
+	display: table;
+	padding: 20px 0;
+}
+
+#me-footer-pre {
+	float: left;
+	padding: 2px 2px 2px 2px;
+	margin-right: 5px;
+	border: 1px solid #D5D5D5;
+	color: #747474;
+}
+#me-footer-pre:HOVER {
+	background: #D5D5D5;
+}
+
+#me-footer-page {
+	float: left;
+	padding: 2px 2px 2px 2px;
+	margin-right: 5px;
+	border: 1px solid #D5D5D5;
+	width: 20px;
+	color: #008299;
+}
+#me-footer-page:HOVER {
+	background: #D5D5D5;
+}
+
+#me-footer-next {
+	float: left;
+	padding: 2px 2px 2px 2px;
+	margin-right: 5px;
+	border: 1px solid #D5D5D5;
+	color: #747474;
+}
+
+#me-footer-next:HOVER {
+	background: #D5D5D5;
+}
+
+#me-footer-menu {
+	
+}
+
+/* write, view 폼 공통 설정 */
+.me-title-header {
+	width: 100%;
+	padding: 3px 0;
+	border-top: 2px solid #BDBDBD;
+	border-bottom: 2px solid #3F5765;
+	font-weight: bold;
+	text-align: center;
+}
+
+.me-form-subject {
+	float: left;
+	height: 20px;
+	line-height: 170%;
+	width: 120px;
+	padding: 5px;
+	border-right: 1px solid #61869C;
+	border-bottom: 1px solid #61869C;
+	text-align: center;
+}
+
+.me-form-input {
+	width: 100%;
+	padding: 5px;
+	border-bottom: 1px solid #61869C;
+}
+/* ------------------------------------------------------ */
+
+/* Write 폼 설정 */
+#me-write-form {
+	float: left;
+}
+#me-write-form #me-write-form-input {
+	height: 20px;
+}
+#me-write-form #me-write-form-input .input-form {
+	border: 0;
+	background: #ececec;
+	width: 580px;
+}
+
+#me-write-form #me-write-form-input #me-write-receiver {
+	width: 500px !important;
+}
+
+#me-write-form #me-write-form-input .input-form:HOVER {
+}
+
+#me-write-form #me-write-form-input .input-form:FOCUS {
+}
+
+#me-write-form #me-write-form-input #addressBtn {
+	float: right;
+	width: 80px !important;
+	height: 20px;
+	margin: 0;
+}
+
+#me-write-form #me-write-form-input .file-form {
+	width: 580px;
+}
+
+#me-write-form #me-write-form-input .me-textarea {
+	margin-top: 5px;
+	background: #efefef;
+	padding: 10px 5px;
+	border: 1px solid #B8B8B8;
+	width: 698px;
+	height: 510px;
+	line-height: 13px;
+}
+
+#me-write-form #me-write-form-input .me-textarea:HOVER {
+	background: #ffffff;
+}
+/* ------------------------------------------------------ */
+
+/* view 폼 설정 */
+#me-view-form #me-view-form-input {
+	width: 720px !important;
+	line-height: 170%;
+	text-align: left;
+	text-indent: 10px;
+}
+
+#me-view-form #me-view-form-cont-view {
+	min-height: 500px;
+	width: 720px !important;
+	text-align: left;
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+}
+/* ------------------------------------------------------ */
+
+/* footer button 설정 */
+#me-footer-button {
+	height: 40px;
+}
+
+#me-footer-button .backbtn {
+	float: left !important;
+}
+
+#me-footer-button .writecomplete {
+	float: right !important;
+}
+/* ------------------------------------------------------ */
+
+/* 주소록 dialog 설정 */
+#address-list #address-department-list {
+	clear: both;
+	text-align: center;
+	width: 100%;
+	height: 20px;
+	line-height: 170%;
+}
+
+#address-list #address-member-info {
+	float: left;
+	width: 100%;
+	height: 20px;
+	line-height: 170%;
+}
+
+#address-list #address-member-info #address-mb-check {
+	width : 15px;
+	height: 15px;
+	vertical-align: -3px;
+}
+#address-list #address-member-info #address-mb-info {
+	height: 20px;
+	line-height: 170%;
+}
+
+#address-list-footer {
+	height: 17px;
+}
+
+.close-btn {
+	color: #124512
+}
+/* ------------------------------------------------------ */

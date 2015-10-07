@@ -1,0 +1,42 @@
+
+
+copy&paste 방식은 최대한 "지양" 할것
+이해 할수 없는 코드는 쓰지말것
+이미지 숫자는 최대한 줄일것
+
+
+공부하는것을 목적으로 하고 100% 구현과 완성도를 우선으로 할것
+
+
+타일즈 
+
+타일즈jar 파일 =  api, core, jsp, sevlet, templeate
+타일즈 포함하기?
+
+<%@ taglib prefix="titles" uri="태그타일즈" %>
+이것 수정 햇음
+
+들어갈부분에 
+<titles: insetattribute name="header">
+
+소스는 다 써주어야 할듯?
+
+request.getsession().setAttribute
+
+
+
+
+
+
+
+chat = DESC_PATH (챗 탭의 개별 페이지 이름)
+
+community = DESC_PATH1 (현재 게시판이속해 있는범주) DESC_PATH2 (현재 게시판 이름)
+
+People = DESC_PATH (구성원 탭의 개별 페이지 이름)
+
+schedule = DESC_PATH1 (스케줄 게시판의 하위 페이지) DESC_PATH2 (하위 페이지의 두번째 이름)
+
+work = DESC_PATH1 (근무 페이지의 개별 페이지 이름) DESC_PATH2 (개볊이지 들의 두번쨰 이름)
+
+main = DESC_PATH (매인 페이지의 개별 하위 목록)

@@ -1,0 +1,58 @@
+.normal-form {
+	font-size: 12px;
+	background-image: url("");
+	background-position: 7px 7px;
+	background-repeat: no-repeat;
+	background: #f8f7f6;
+	border: 1px solid #B8B8B8;
+	width: 220px;
+	height: 20px;
+	padding: 3px;
+	margin-bottom: 3px;
+	line-height: 20px;
+}
+.normal-form:HOVER {
+	background: #ffffff;
+}
+.normal-form:FOCUS {
+	background: #ffffff;
+}
+
+.writecomplete {
+	color: #efefef;
+	background: #E74C3C;
+	border: none;
+	margin: 5px 5px 5px 5px;
+}
+
+.writecomplete:active {
+	color: #ffffff;
+	text-shadow: 1px 1px 1px #000000;
+	background: #BA2B2B;
+	border: none;
+	position: relative;
+	left: 1px;
+	top: 1px;
+}
+
+.backbtn {
+	width: 80px;
+	height: 30px;
+	color: #efefef;
+	background: #3f5765;
+	border: none;
+	margin: 5px 5px 5px 5px;
+	cursor: pointer;
+}
+
+.backbtn:active {
+	width: 80px;
+	height: 30px;
+	color: #ffffff;
+	background: #2B3A42;
+	text-shadow: 1px 1px 1px #000000;
+	border: none;
+	position: relative;
+	left: 1px;
+	top: 1px;
+}

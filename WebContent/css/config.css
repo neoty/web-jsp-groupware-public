@@ -1,0 +1,117 @@
+#config-main {
+	width: 730px;
+	margin: 0 auto;
+	padding-bottom: 40px;
+	padding-top: 15px;
+}
+
+#config-status-title {
+	border-top: 2px solid #BDBDBD;
+	border-bottom: 2px solid #3F5765;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-weight: bold;
+	height: 15px;
+}
+
+#config-status-des {
+	float: left;
+	width: 200px;
+	border-bottom: 1px solid #DCDCDC;
+	border-right: 1px solid #DCDCDC;
+	padding: 10px;
+	font-weight: bold;
+	color: #005766;
+	text-align: left;
+	height: 15px;
+}
+
+
+#config-status-value {
+	border-bottom: 1px solid #DCDCDC;
+	padding: 10px;
+	font-weight: bold;
+	height: 15px;
+}
+
+.config-input-form {
+	margin-top: -4px;
+	font-weight: bold;
+	background: #f8f7f6;
+	border: 1px solid #B8B8B8;
+	width: 150px;
+	padding: 3px;
+	text-align: center;
+}
+.config-input-form:HOVER {
+	background: #ffffff;
+}
+.config-input-form:FOCUS {
+	background: #ffffff;
+}
+
+.config-combo-form {
+	margin-top: -4px;
+	font-weight: bold;
+	background: #f8f7f6;
+	border: 1px solid #B8B8B8;
+	padding: 3px;
+	width: 158px;
+	height: 22px;
+	text-align: center;
+}
+
+
+#config-community-title {
+	border-top: 2px solid #BDBDBD;
+	border-bottom: 2px solid #3F5765;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-weight: bold;
+	height: 15px;
+}
+
+
+.community-title-1 {
+	float: left;
+	padding-left: 5px;
+	width: 30px;
+	text-align: center;
+}
+.community-title-2 {
+	float: left;
+	width: 150px;
+	text-align: center;
+}
+.community-title-3 {
+	float: left;
+	width: 350px;
+	text-align: center;
+}
+.community-title-4 {
+	width: 80px;
+	float: left;
+}
+.community-title-5 {
+	margin-left: 5px;
+	width: 110px;
+	float: left;
+}
+
+#config-community-content {
+	border-bottom: 1px solid #DCDCDC;
+	padding-bottom:20px;
+	padding-top: 5px;
+	color: #2B3A42;
+}
+
+
+#config-community-make {
+	border-top: 2px solid #BDBDBD;
+	border-bottom: 2px solid #3F5765;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-weight: bold;
+	text-align: center;
+	width: 100%;
+}

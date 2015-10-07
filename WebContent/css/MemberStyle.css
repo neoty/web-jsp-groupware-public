@@ -1,0 +1,176 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body {
+	height: 100%;
+	background: #3f5765;
+}
+
+#membership-wrapper {
+	position: relative;
+	width: 100%;
+	background: #3f5765;
+	height: 100%;
+}
+
+#membership-center {
+	position: relative;
+	margin: 0 auto;
+	height: 100%;
+	width: 700px;
+	background-color: #efefef;
+	max-height: 100%;
+}
+
+#membership-right {
+	background: #3f5765;
+	width: 100%;
+}
+
+#MemberForm-wrapper {
+	padding: 30px 30px 80px 30px;
+	background-color: #efefef;
+	height: 650px;
+}
+
+#subForm {
+	margin: 0;
+}
+
+#ex {
+	width: 130px;
+	height: 28px;
+	line-height: 28px;
+	text-align: left;
+	vertical-align: middle;
+	background: #efefef;
+	font-size: 13px;
+	padding-left: 5px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-right: 60px;
+	border-top: 1px solid #61869C;
+	border-right: 1px solid #61869C;
+	background: #BDD4DE;
+	float: left;
+	text-shadow: 1px 1px 1px #ececec;
+	color: #3F5765;
+}
+
+#exSelect {
+	vertical-align: middle;
+	height: 28px;
+	line-height: 28px;
+	margin-left: 60px;
+	padding-left: 150px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border-top: 1px solid #61869C;
+}
+
+#exend {
+	width: 130px;
+	height: 28px;
+	line-height: 28px;
+	text-align: left;
+	vertical-align: middle;
+	background: #efefef;
+	font-size: 14px;
+	padding-left: 5px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-right: 60px;
+	border-bottom: 1px solid #61869C;
+	border-top: 1px solid #61869C;
+	border-right: 1px solid #61869C;
+	background: #BDD4DE;
+	float: left;
+	text-shadow: 1px 1px 1px #ececec;
+	color: #3F5765;
+}
+
+#exSelectend {
+	vertical-align: middle;
+	height: 28px;
+	line-height: 28px;
+	margin-left: 60px;
+	padding-left: 150px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border-bottom: 1px solid #61869C;
+	border-top: 1px solid #61869C;
+}
+
+#bottomButton {
+	width: 640px;
+	margin-top: 50px;
+}
+
+.backdiv {
+	text-align: center;
+	float: left;
+	width: 310px;
+}
+.submitdiv {
+	text-align: center;
+}
+
+#findpasswd {
+	width: 100%;
+	height: 100%;
+	background-color: #efefef;
+	
+}
+
+.normal-form {
+	font-size: 12px;
+	background-image: url("");
+	background-position: 7px 7px;
+	background-repeat: no-repeat;
+	background: #f8f7f6;
+	border: 1px solid #B8B8B8;
+	width: 220px;
+	height: 20px;
+	padding: 3px;
+	margin: 3px;
+	line-height: 20px;
+}
+.normal-form:HOVER {
+	background: #ffffff;
+}
+.normal-form:FOCUS {
+	background: #ffffff;
+}
+
+.writecomplete {
+	color: #efefef;
+	background: #E74C3C;
+	border: none;
+	margin: 5px 5px 5px 5px;
+}
+
+.writecomplete:active {
+	color: #ffffff;
+	text-shadow: 1px 1px 1px #000000;
+	background: #BA2B2B;
+	border: none;
+	position: relative;
+	left: 1px;
+	top: 1px;
+}
+
+#queslist {
+	height: 30px;
+	width: 240px;
+}
+
+
+
+
+
+
+
+
+
