@@ -15,7 +15,7 @@ public class Mail {
 		int result;
 		Properties p  = new Properties();
 
-		p.put("mail.smtp.user", "elitegroupware@gmail.com");
+		p.put("mail.smtp.user", "구글 메일주소");
 		p.put("mail.smtp.host", "smtp.gmail.com");
 		p.put("mail.smtp.port", "465");
 		p.put("mail.smtp.starttls.enable", "true");
